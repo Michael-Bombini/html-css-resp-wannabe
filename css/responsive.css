@@ -1,8 +1,9 @@
 /* tablet : 768px  */
 
 @media screen and (max-width : 768px) {
-    .container {
-        width: 100%;
+  .steps.text-center .container {
+        min-width: 768px;
+     
     }
     
    
