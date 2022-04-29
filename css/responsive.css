@@ -1,12 +1,52 @@
 /* tablet : 768px  */
 
 @media screen and (max-width : 768px) {
-  .steps.text-center .container {
-        min-width: 768px;
+    .container {
+        width: 100%;
      
     }
     
+    
+    
+    
    
     
+
+}
+
+
+
+@media screen and (max-width : 480px) {
+    .row {
+        flex-direction: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+   .col {
+       min-width: 100%;
+      
+   }
+
+   .card {
+       padding-bottom: 3.5rem;
+   }
+    
+   .steps {
+       margin-bottom: 0;
+   }
+
+   .why-us {
+       background: #222222;
+       margin-bottom: 0;
+       padding: 3rem 0;
+       
+   }
+
+   .why-us img {
+       padding-bottom: 2.5rem;
+   }
 
 }
