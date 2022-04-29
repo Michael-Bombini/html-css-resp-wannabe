@@ -1,6 +1,6 @@
 /* tablet : 768px  */
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 768px ) {
     .container {
         width: 100%;
      
@@ -15,7 +15,7 @@
 }
 
 
-
+/* mobile : 480px  */
 @media screen and (max-width : 480px) {
     .row {
         flex-direction: wrap;
@@ -48,5 +48,27 @@
    .why-us img {
        padding-bottom: 2.5rem;
    }
+
+}
+
+
+
+    
+    
+   
+    
+
+/* laptop : 1024px  */
+@media screen and (max-width : 1024px ) {
+    .container {
+        width: 100%;
+     
+    }
+    
+    
+    
+    
+   
+    
 
 }
